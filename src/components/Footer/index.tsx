@@ -1,5 +1,5 @@
 import { Container, Navbar } from "react-bootstrap";
-import { FooterContainer } from "../Footer/styles";
+import { FooterContainer } from "./styles";
 
 export default function Footer() {
   return (

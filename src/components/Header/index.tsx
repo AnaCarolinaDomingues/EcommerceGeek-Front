@@ -1,13 +1,13 @@
 import { Button, Container, Nav, Navbar } from "react-bootstrap";
 
-import { HeaderContainer } from "../Header/styles";
+import { HeaderContainer } from "./styles";
 
 export default function Header() {
   return (
     <HeaderContainer>
       <Navbar className="p-2">
         <Container className="m-2" fluid>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="/home">
             <h3>GeekStore</h3>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -17,7 +17,7 @@ export default function Header() {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link href="/">
+              <Nav.Link href="/home">
                 <h6>Home</h6>
               </Nav.Link>
               <Nav.Link href="/produtos">

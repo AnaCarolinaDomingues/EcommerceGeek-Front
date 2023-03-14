@@ -17,7 +17,7 @@ export default function Footer() {
                 <a href="https://www.linkedin.com/in/ana-carolina-domingues-313362180">
                   Ana Carolina Domingues
                 </a>
-
+                
                 <a href="https://www.linkedin.com/in/anarieper/">
                   Ana Caroline Rieper
                 </a>

@@ -6,10 +6,18 @@ export const FooterContainer = styled.div`
   padding-top: 1%;
   display: flex;
   justify-content: space-between;
+
   
   background-color: #E05656  !important;
 
+.links {
+  display:flex;
+  margin-left: 500px;
+  gap: 60px;
+}
   
-  
+.a {
+  padding: 5px;
+}
 `;
 

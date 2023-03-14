@@ -25,7 +25,7 @@ export default function ListaProdutos({
           <Card.Body>
             <Card.Title>{titulo}</Card.Title>
             <Card.Text>{descricao}</Card.Text>
-            <Button variant="secondary">Go somewhere</Button>
+            <Button href="/produtos" variant="secondary">Comprar</Button>
           </Card.Body>
         </Card>
       </CardGroup>

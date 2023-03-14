@@ -20,12 +20,12 @@ export default function FormularioLogin() {
       </Form.Group>
 
       <Form.Group className="mb-5" controlId="formBasicPassword">
-        <Form.Label>Password</Form.Label>
+        <Form.Label>Senha</Form.Label>
         <Form.Control type="password" placeholder="" />
       </Form.Group>
      
-      <Button variant="primary" type="submit">
-        Submit
+      <Button variant="dark" type="submit">
+        Entrar
       </Button>
     </Form>
       

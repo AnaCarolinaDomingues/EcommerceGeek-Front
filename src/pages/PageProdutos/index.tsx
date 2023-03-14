@@ -20,17 +20,17 @@ export default function ListaProdutos() {
      
         <Header />
         <ListaProdutosContainer>
-        <Produtos titulo="Almofada" descricao="11,99" imagem={ImgAlmofada1} />
-        <Produtos titulo="Almofada" descricao="11,99" imagem={ImgAlmofada2} />
-        <Produtos titulo="Almofada" descricao="11,99" imagem={ImgAlmofada3} />
-        <Produtos titulo="Almofada" descricao="11,99" imagem={ImgCaneca1} />
-        <Produtos titulo="Almofada" descricao="11,99" imagem={ImgCaneca2} />
-        <Produtos titulo="Almofada" descricao="11,99" imagem={ImgCaneca3} />
-        <Produtos titulo="Almofada" descricao="11,99" imagem={ImgFunko1} />
-        <Produtos titulo="Almofada" descricao="11,99" imagem={ImgFunko2} />
-        <Produtos titulo="Almofada" descricao="11,99" imagem={ImgFunko3} />
-        <Produtos titulo="Almofada" descricao="11,99" imagem={ImgFunko4} />
-        <Produtos titulo="Almofada" descricao="11,99" imagem={ImgFunko5} />
+        <Produtos titulo="Almofada Video Game" descricao="16,99" imagem={ImgAlmofada1} />
+        <Produtos titulo="Almofada Play" descricao="15,80" imagem={ImgAlmofada2} />
+        <Produtos titulo="Almofada The Masters" descricao="17,99" imagem={ImgAlmofada3} />
+        <Produtos titulo="Caneca Cavena do Dragão" descricao="18,00" imagem={ImgCaneca1} />
+        <Produtos titulo="Caneca Coringa" descricao="18,99" imagem={ImgCaneca2} />
+        <Produtos titulo="Caneca Star Wars" descricao="19,99" imagem={ImgCaneca3} />
+        <Produtos titulo="Funko Jack Skellington" descricao="35,99" imagem={ImgFunko1} />
+        <Produtos titulo="Funko God Of War" descricao="40,00" imagem={ImgFunko2} />
+        <Produtos titulo="Funko Lara Croft" descricao="49,99" imagem={ImgFunko3} />
+        <Produtos titulo="Funko Robocop" descricao="41,99" imagem={ImgFunko4} />
+        <Produtos titulo="Funko The Witcher 3 Geralt" descricao="49,99" imagem={ImgFunko5} />
         </ListaProdutosContainer>
         <Footer />
       

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const BannerContainer = styled.div`
   height: 650px;
-  background-color: #000000  !important;
+  background-color: #BDBDBD  !important;
   
   display: flex;
   flex-direction: row;

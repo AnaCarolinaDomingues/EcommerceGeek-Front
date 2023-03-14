@@ -5,8 +5,19 @@ import FormC from "../../components/FormC";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CadastroContainer } from "./styles";
+import { FormEvent, useState } from "react";
+import { cadastroProduto } from "../../services/MainApi/cadastro";
+
+
+
 
 function CadastroPage() {
+
+  
+
+  const cadastro = async (event: FormEvent) => {
+    event.preventDefault();
+  }
   return (
     <>
       <Header />
